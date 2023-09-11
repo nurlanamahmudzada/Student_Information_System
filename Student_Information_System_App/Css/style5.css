@@ -1,0 +1,16 @@
+﻿
+.div-flex{
+    display: flex;
+}
+
+.left-div{
+    margin: 200px;
+}
+
+
+.search-div {
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+

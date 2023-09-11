@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" Inherits="Student_Information_System_App.Base" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link rel="stylesheet" href="../Css/Base.css" />
+    <link rel="stylesheet" href="../Css/style.css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <div class=" text-center font-weight-bold ">
+    <h1>Student Information System</h1>
+    </div>
+    <form id="form1" runat="server">
+        <header>
+            <div class="navbar-table-container">
+                <nav id="sidebarMenu">
+                    <div>
+                        <div>
+                            <br />
+                            <a href="/WebForms/Dashboard.aspx" class="list-group-item list-group-item-action py-2 ripple">
+                                <i class="fas fa-chart-area fa-fw me-3"></i><span>Dashboard</span>
+                            </a>
+                            <a href="/WebForms/AllStudents.aspx" class="list-group-item list-group-item-action py-2 ripple">
+                                <i class="fas fa-chart-area fa-fw me-3"></i><span>All Students</span>
+                            </a>
+                            <a href="/WebForms/AllTeachers.aspx" class="list-group-item list-group-item-action py-2 ripple">
+                                <i class="fas fa-chart-pie fa-fw me-3"></i><span>All Teachers</span>
+                            <a href="/WebForms/AddStudent.aspx" class="list-group-item list-group-item-action py-2 ripple">
+                                <i class="fas fa-chart-area fa-fw me-3"></i><span>Add Student</span>
+                            </a>
+                            <a href="/WebForms/AddTeacher.aspx" class="list-group-item list-group-item-action py-2 ripple">
+                                <i class="fas fa-chart-area fa-fw me-3"></i><span>Add Teacher</span>
+                            </a>
+                            </a>
+                            <a href="/WebForms/AddLessonToStudent.aspx" class="list-group-item list-group-item-action py-2 ripple">
+                                <i class="fas fa-chart-area fa-fw me-3"></i><span>Add lesson to student</span>
+                            </a>
+                             <a href="/WebForms/AddLessonPoint.aspx" class="list-group-item list-group-item-action py-2 ripple">
+                                <i class="fas fa-chart-area fa-fw me-3"></i><span>Add Lesson Point</span>
+                            </a>
+                            <a href="/WebForms/StudentInfo.aspx" class="list-group-item list-group-item-action py-2 ripple">
+                                <i class="fas fa-chart-area fa-fw me-3"></i><span>Show student description</span>
+                            </a>
+                            <a href="/WebForms/EditStudent.aspx" class="list-group-item list-group-item-action py-2 ripple">
+                                <i class="fas fa-chart-area fa-fw me-3"></i><span>Edit Student Data</span>
+                            </a>
+                            <a href="/WebForms/EditTeacher.aspx" class="list-group-item list-group-item-action py-2 ripple">
+                                <i class="fas fa-chart-area fa-fw me-3"></i><span>Edit Teacher Data</span>
+                            </a>
+                            <a href="/WebForms/DeletedStudentLogs.aspx" class="list-group-item list-group-item-action py-2 ripple">
+                                <i class="fas fa-chart-area fa-fw me-3"></i><span>Deleted Student Logs</span>
+                            </a>
+                             <a href="/WebForms/DeletedTeacherLogs.aspx" class="list-group-item list-group-item-action py-2 ripple">
+                                <i class="fas fa-chart-area fa-fw me-3"></i><span>Deleted Teacher Logs</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </nav>
+                
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </header>
+
+    </form>
+</body>
+</html>

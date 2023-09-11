@@ -1,0 +1,73 @@
+﻿.card1 {
+    background-color: aliceblue;
+    padding: 25px;
+    height: 170px;
+    width: 275px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.dashboard-div {
+    margin: 30px;
+    background-color: cornflowerblue;
+    padding: 15px;
+    border-radius: 5px;
+    height: 200px;
+    width: 1200px;
+    display: flex;
+}
+.image{
+    width: 100px;
+}
+.count-span {
+    margin-left: 2px;
+    font-family: math;
+    font-size: 25px;
+}
+
+.labels {
+    font-size: 40px;
+    margin: 50px 10px 10px 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+h3 {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: cursive;
+}
+.admin-image {
+    width: 160px;
+    margin: 30px 50px 30px 100px;
+}
+.about-admin-div{
+    display: flex;
+}
+
+.admin-form-div {
+    margin: 30px 0px 90px 0px;
+}
+
+.margin-div {
+   margin-bottom: 10px;
+}
+.form-labels-name {
+    font-size: 23px;
+    font-family: cursive;
+    color: blue;
+}
+
+.form-labels-value {
+    font-size: 23px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.logout-btn {
+    background-color: red;
+    color: white;
+    border-color: white;
+    margin-left: 100px;
+    border-radius: 3px;
+}
+

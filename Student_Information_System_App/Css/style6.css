@@ -1,0 +1,50 @@
+﻿.add-teacher-div {
+    margin-top: 40px;
+}
+
+.repeater-div {
+    margin: 50px 40px 20px 800px;
+    position: fixed;
+}
+
+.select-add-div {
+    margin-top: 150px;
+    margin-left: 230px;
+}
+
+
+.dropdown {
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.btn {
+    text-align: center;
+    color: white;
+    border-color: whitesmoke;
+    background-color: royalblue;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 8px 5px 8px;
+}
+
+.labels {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.thead {
+    background-color: aliceblue;
+    color: steelblue;
+}
+.nxprbtn2 {
+    margin: 20px 30px 20px 950px;
+}
+
+.messagelbl {
+    margin-left: 35%;
+    font-size: 20px;
+    font-weight: bold;
+}

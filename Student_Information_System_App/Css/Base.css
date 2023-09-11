@@ -1,0 +1,65 @@
+﻿body {
+
+}
+h1{
+   
+    margin-top: 40px !important; 
+    background-color: lightsteelblue;
+    font-family: 'Cambria Math';
+}
+
+.table {
+    float: right;
+    margin: 20px;
+}
+
+
+.navbar-table-container {
+    display: flex;
+}
+
+#sidebarMenu {
+    width: 15%;
+    float: left;
+    margin: 60px 0px 10px 40px;
+    position: static;
+}
+
+.add-student-div{
+    margin: 100px 70px 10px 250px;
+    
+}
+
+.add-student-input{
+    height: 45px;
+}
+
+#search-div{
+    margin: 10px 0px 0px 1000px;
+    border-radius: 6px;
+}
+
+.nxprbtn{
+    margin: 20px 30px 20px 1100px !important;
+}
+
+.tb-search{
+    height: 30px;
+    width: 220px;    
+}
+    
+
+
+.input-style{
+    width: 250px;
+    margin-left: -40px !important;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+
+
